@@ -20,7 +20,8 @@ class ViewController: UIViewController {
     var bmitxt : Float? = 0
     
     var heighttxt : Float? = 0
-	
+
+    
 
     @IBOutlet weak var nameLbl: UITextField!
     
@@ -74,7 +75,6 @@ class ViewController: UIViewController {
                     weighttxt = Float(self.weightLbl.text!)!
                     heighttxt = Float(self.heightLbl.text!)!
                     
-					// Calculation for counting BMI on the based on given height and weight.
                     if unitSwitch.isOn
                     {
                         bmitxt = Float((weighttxt!*703)/(heighttxt!*heighttxt!))

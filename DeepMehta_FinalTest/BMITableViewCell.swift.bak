@@ -11,7 +11,6 @@ import UIKit
 
 class BMITableViewCell: UITableViewCell {
     
-	// Cell View for Table layout
     @IBOutlet weak var weightLabel: UILabel!
     @IBOutlet weak var BMIResultLabel: UILabel!
     @IBOutlet weak var dateLabel: UILabel!
